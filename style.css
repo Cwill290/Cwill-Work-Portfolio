@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
+/*set background image static*/
 body{
     background-image: url(images/Image\ 2.jpg);
     background-position: center;
@@ -17,7 +17,7 @@ header {
     height: 25vh;
 
 }
-
+/*Full name top of page large and underlined*/
 header h1{
     color: rgb(255, 255, 255);
     font-size: 75px;
@@ -39,7 +39,7 @@ nav ul{
     width: 100%;
 
 }
-
+/*nav bar under header set in a row with border*/
 nav ul li{
     color: white;
     display: inline-block;
@@ -47,7 +47,7 @@ nav ul li{
     margin: 20px 30px;
     font-size: 150%;
 }
-
+/*About section header and font styling*/
 .About h2{
     color: white;
     letter-spacing: 3px;
@@ -55,20 +55,20 @@ nav ul li{
     text-align: center;
     text-decoration: underline;
 }
-
+/*container for profile picture and text*/
 .Container {
     display: flex;
     align-items: center;
     justify-content: center
 }
-
+/*profile picture dimensions*/
 .Mypic img{
     margin: 10px;
     padding: 20px;
     width: 600px;
     background-color: #cdcdcd;
 }
-
+/*set up paragraph to be positioned to the right of profile picture*/
 .text h1{
     letter-spacing: 3px;
     color: whitesmoke;
@@ -77,12 +77,12 @@ nav ul li{
     font-size: 30px;
     padding-left: 10%;
 }
-
+/*images displayed in a row side by side*/
 .Images{
     display: flex;
     flex-direction: row;
 }
-
+/*Projects heading border box*/
 .Projects h3{
     color: whitesmoke;
     text-align: center;
@@ -94,7 +94,7 @@ nav ul li{
     border-color: whitesmoke;
     letter-spacing: 3px;
 }
-
+/*styled project link with a border*/
 #Horiseon img{
 border: 10px solid;
 padding: 3px;
@@ -102,7 +102,7 @@ margin: 5px;
 border-color: purple;
 
 }
-
+/*label for Horiseon project*/
 .Link1{
     color: red;
     position: absolute;
@@ -113,7 +113,7 @@ border-color: purple;
 
 
 }
-
+/*label for custom arcade project*/
 .Link2{
     font-size: 50px;
     position: relative;
@@ -124,7 +124,7 @@ border-color: purple;
     height: min-content;
     padding: 10px;
 }
-
+/*arcade project image dimensions*/
 #Arcade img{
 border: 10px solid;
 padding: 3px;
@@ -132,7 +132,7 @@ margin: 5px;
 border-color: rgb(112, 5, 5);
 
 }
-
+/*contact info bar*/
 .info{
     display: flex;
     flex-direction: row;
