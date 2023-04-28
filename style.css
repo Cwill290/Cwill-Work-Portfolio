@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 /*set background image static*/
 body{
     background-image: url(images/Image\ 2.jpg);
@@ -11,6 +12,7 @@ body{
     background-size: cover;
     background-attachment: fixed
 }
+
 
 header {
     width: 100%;
@@ -77,6 +79,14 @@ nav ul li{
     font-size: 30px;
     padding-left: 10%;
 }
+/*adjusts pictures to stack at smaller screen sizes*/
+@media screen and (min-width: 768px) {
+    .Images {
+        display: flex;
+        flex-wrap: wrap
+    };
+    }
+
 /*images displayed in a row side by side*/
 .Images{
     display: flex;
@@ -116,7 +126,6 @@ border-color: purple;
 /*label for custom arcade project*/
 .Link2{
     font-size: 50px;
-    position: relative;
     left: -472px;
     bottom: -15px;
     background-color: purple;
