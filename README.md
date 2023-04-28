@@ -9,14 +9,10 @@
 
 ## Usage
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+https://cwill290.github.io/Cwill-Work-Portfolio/
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
-    ![alt text](assets/images/Chase Portfolio.png)
 
-    ![Link to page](assets/images/Chase Portfolio.png)
+![Chase Portfolio](https://user-images.githubusercontent.com/130315092/235034466-9b3f3c4c-91c8-45ce-9890-820a5c4ce254.png)
 
 ## Credits
 
