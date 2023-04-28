@@ -10,7 +10,7 @@
 ## Usage
 
 
-    ![](blob/main/images/Chase%20Portfolio.png)
+![Chase Portfolio](https://user-images.githubusercontent.com/130315092/235034466-9b3f3c4c-91c8-45ce-9890-820a5c4ce254.png)
 
 ## Credits
 
