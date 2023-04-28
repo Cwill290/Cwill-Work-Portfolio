@@ -125,14 +125,14 @@ border-color: purple;
 }
 /*label for custom arcade project*/
 .Link2{
+    color: white;
     font-size: 50px;
-    left: -472px;
-    bottom: -15px;
     background-color: purple;
-    position: relative;
     height: min-content;
     padding: 10px;
+    contain: size;
 }
+
 /*arcade project image dimensions*/
 #Arcade img{
 border: 10px solid;
