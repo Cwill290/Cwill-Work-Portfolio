@@ -10,7 +10,7 @@
 ## Usage
 
 
-    ![](assets/images/Chase Portfolio.png)
+    ![](images/Chase%20Portfolio.png)
 
 ## Credits
 
